@@ -109,7 +109,6 @@ render() {
           <button className="bottom-nav" onClick={this.showAll}>All</button>
           <button className="bottom-nav" onClick={this.showActive}>Active</button>
           <button className="bottom-nav" onClick={this.showCompleted}>Completed</button>
-          <a className="bottom-nav" href="2.e">Clear Completed</a>
         </p>
         : ""
         }
